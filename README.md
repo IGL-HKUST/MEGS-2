@@ -21,6 +21,7 @@ Jiarui Chen<sup>1*</sup>, Yikeng Chen<sup>1,2*</sup>, Yingshuang Zou<sup>1</sup>
  <a href='https://arxiv.org/abs/2509.07021'><img src='https://img.shields.io/badge/arXiv-2509.07021-b31b1b.svg'></a> &nbsp;
  <a href='https://megs-2.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;
 </p>
+ 
  We introduce **MEGS²**, a new framework that makes 3D Gaussian Splatting truly memory-efficient for real-time rendering.
 ![teaser](assets/teaser.jpg)
 
