@@ -27,7 +27,7 @@ Jiarui Chen<sup>1*</sup>, Yikeng Chen<sup>1,2*</sup>, Yingshuang Zou<sup>1</sup>
 
 
 ## NEWS
-- Feb.  7,2026: We released our full training code and scripts, which we modified from [GaussianSpa](https://github.com/noodle-lab/GaussianSpa.git).
+- Feb.  7, 2026: We released our full training code and scripts, which we modified from [GaussianSpa](https://github.com/noodle-lab/GaussianSpa.git).
 - Sept.24, 2025: We released our WebGL viewer code, which we modified from the [repository](https://github.com/antimatter15/splat) (Kwok & Ye) to support both Spherical Gaussians and 3rd-order Spherical Harmonics. 
 - Sept. 7, 2025: We released our [paper](https://arxiv.org/abs/2509.07021).
 
