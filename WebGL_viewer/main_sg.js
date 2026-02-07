@@ -801,7 +801,7 @@ async function main() {
         carousel = false;
     } catch (err) { }
     const url = new URL(
-        params.get("url") || "./bicycle_205.ply",
+        params.get("url") || "./point_cloud.ply",
         location.href
     );
 

@@ -1,0 +1,6 @@
+tqdm
+plyfile
+submodules/diff-gaussian-rasterization
+submodules/diff-gaussian-rasterization_ms
+submodules/diff-gaussian-rasterization_ms_light
+submodules/simple-knn
