@@ -1,4 +1,4 @@
-name: gaussian_spa
+name: MEGS2
 channels:
   - pytorch
   - conda-forge

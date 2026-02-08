@@ -41,8 +41,8 @@ git clone https://github.com/IGL-HKUST/MEGS-2.git --recursive
 ```
 ### 2. Setup environment
 ```shell
-conda create -n gaussian_spa python=3.7
-conda activate gaussian_spa
+conda create -n MEGS2 python=3.7
+conda activate MEGS2
 pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 ```
@@ -51,7 +51,7 @@ Download datasets [Mip-360](https://jonbarron.info/mipnerf360/) and [Tanks&Templ
 
 ```txt
 MEGS-2
-├──train.sh
+├──eval.sh
 └── ...
 Dataset
 ├── drjohnson
@@ -72,7 +72,7 @@ Dataset
 
 ```shell
 cd MEGS-2
-bash train.sh
+bash eval.sh
 ```
 <details>
 <summary><span style="font-weight: bold;">Command Line Arguments</span></summary>
@@ -104,7 +104,7 @@ For installation:
 npm install http-server -g
 ```
 ### 3.Run in the browser
-First, you need to place the `.ply` file in the WebGL_viewer folder, or directly modify the url path index in the main() function of the `.js` file to ensure it points to the correct path.
+First, you need to place the `.ply` file in the WebGL_viewer folder, or directly modify the url path index in the `main()` function of the `.js` file to ensure it points to the correct path.
 
 Then, you need to select the corresponding `.js` file in the `.html` file. Among them, `main_sg.js` is used to run Gaussian with Gaussian Lobes attribute in MEGS-2, while `main_sh.js` is for running the vanilla Gaussian. Unlike the previous [repository](https://github.com/antimatter15/splat) (Kwok & Ye), we have added support for third-order SH coefficients, which therefore imposes a heavier burden on the device during runtime.
 
